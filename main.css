@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Mari's CSS */
+
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url(fonts/proxima-nova-regular.otf);
+
+	
+}
+
+@font-face {
+	font-family: 'Proxima Nova Bold';
+	src: url(fonts/proxima-nova-bold.otf);
+	font-weight:bold;
+	
+}
+
+body {
+	font-family: 'Proxima Nova';
+	
+}
+#container {
+	width: 940px;
+	margin: auto;
+}
+
+header {
+	display: block;
+	background-color: #424348;
+}
+
+	header ul {
+		margin: 0 auto;
+		width: 940px;
+		display: block;
+		text-align: right;
+		padding: 15px;
+	}
+
+		header ul li {
+			font-family: 'Proxima Nova';
+			font-weight: 'Regular';
+			letter-spacing: .1em;
+			font-size: 14px;
+			color:#ffffff;
+			display: inline-block;
+			padding-left: 15px;
+		}
+	
+img {
+	display: block;
+	margin: 45px auto 30px auto;
+}
+
+nav {
+	display: block;
+}
+
+nav ul {
+	text-align: center;
+	margin-bottom: 10px;
+	
+}
+
+nav ul li {
+	font-family: 'Proxima Nova';
+	font-weight: 'Regular';
+	font-size: 15px;
+	text-transform: uppercase;
+	color: ##424348;
+	display: inline-block;
+	padding: 0px 15px 15px 0px;
+	letter-spacing:.2em;
+}
+
+#feature_container {
+	width: 940px;
+	height: 450px;
+	position: relative;
+	margin: 50px auto;
+}
+
+#feature_text {
+	z-index: 100;
+	width: 500px;
+	position: absolute;
+	text-align: center;
+	margin: 110px auto;
+}
+
+#feature_text img {
+	width: 530px;
+	margin: 0px 205px 0px 205px;
+	position:relative;
+	
+}
+
+#feature_image {
+	position: relative;
+	margin-top: -50px;
+}
+
+#headline {
+	width: 400px;
+	z-index: 100;
+	margin: 10px 270px 0px 270px;
+}
+
+
+#headline p {
+	font-family: 'Proxima Nova';
+	font-weight: bold;
+	font-size: 15px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 20px;
+	letter-spacing: .1em;
+}
+
+#button {
+	position: absolute;
+	width: 200px;
+	height:55px;
+	background: #9fbe00;
+	margin: 50px 370px;
+}
+
+#button p {
+	color: #ffffff;
+	font-family: 'Proxima Nova';
+	font-weight: 'Bold';
+	font-size:12px;
+	letter-spacing:.1em;
+	text-align: center;
+	margin: 20px;
+	text-transform: uppercase;
+	
+}
+
+.img_container {
+	width: 220px;
+	height: 200px;
+	display: inline-block;
+	text-align: center;
+	padding-right: 10px;
+	}
