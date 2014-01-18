@@ -67,6 +67,7 @@ table {
 body {
 	height:100%;
 	font-family: 'Proxima Nova';
+	font-color: #404348;
 	
 }
 #container {
@@ -126,7 +127,8 @@ nav ul li {
 #feature_container {
 	width: 940px;
 	position: relative;
-	margin: 50px auto;
+	margin: 0px auto;
+	margin-top: -40px;
 }
 
 #feature_text {
@@ -172,7 +174,7 @@ nav ul li {
 	width: 200px;
 	height:55px;
 	background: #9fbe00;
-	margin: 50px 370px;
+	margin: 50px 364px;
 }
 
 #button p {
@@ -187,20 +189,59 @@ nav ul li {
 	
 }
 
-.img_container {
-	width: 220px;
-	height: 200px;
-	display: block;
-	float:left;
-	text-align: center;
-	padding-right: 20px;
-	margin-top -50px
-	}
-	
-.img_container:nth-child(4) {
-	padding-right: 0px;
+#projects {
+	margin-top: -50px;
 }
+
+	.img_container {
+		width: 220px;
+		height: 200px;
+		display: block;
+		float:left;
+		text-align: center;
+		padding-right: 20px;
+		margin-top -50px
+		}
 	
+		.img_container p {
+			margin: -10px;
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: bold;
+			letter-spacing: .1em;
+		}
+	
+		.img_container:nth-child(4) {
+			padding-right: 0px;
+		}	
+
+.blog_text {
+	background:#f1f5f6;
+	width:300px;
+	height:60px;	
+}
+
+	.blog_post {
+		position: relative;
+		margin-top: 30px;
+		width: 300px;
+		display: block;
+		float: left;
+		text-align: center;
+		padding-right: 20px;
+	}
+
+	.blog_post:nth-child(3) {
+		padding-right: 0px;
+	}
+
+
+	.blog_post h3 {
+		text-transform: uppercase;
+		font-size: 10px;
+		font-weight: bold;
+		margin-top: -10px;
+	}
 footer { 
 	background-color:#f5f5f5;
 	position:relative;
@@ -216,7 +257,6 @@ footer {
 
 #footer_nav {
 	float: right;
-	display: none;
 }
 
 
