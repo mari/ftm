@@ -140,12 +140,12 @@ nav ul li {
 }
 
 nav a {
-	color:#7d8085;
+	color:#2a9f9b;
 	text-decoration:none;
 }
 
 nav a:hover{
-	color:#ff8c3f;
+	color:#0f8783;
 }
 #feature_container {
 	width: 940px;
@@ -201,7 +201,7 @@ nav a:hover{
 	position: absolute;
 	width: 200px;
 	height:55px;
-	background: #ff8c3f;
+	background: #2a9f9b;
 	color: #ffffff;
 	text-decoration:none;
 	font-family: 'Proxima Nova';
@@ -217,7 +217,7 @@ nav a:hover{
 }
 
 #button a:hover{
-	background: #e57114;
+	background: #0f8783;
 	text-decoration:none;
 	
 }
