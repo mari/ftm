@@ -75,6 +75,12 @@ body {
 	margin: auto;
 }
 
+.blog_text h3 {
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+
 header {
 	display: block;
 	background-color: #424348;
@@ -200,7 +206,7 @@ nav ul li {
 		float:left;
 		text-align: center;
 		padding-right: 20px;
-		margin-top -50px
+		margin- -50px
 		}
 	
 		.img_container p {
@@ -214,11 +220,30 @@ nav ul li {
 		.img_container:nth-child(4) {
 			padding-right: 0px;
 		}	
+		
+.divider {
+	position: relative;
+	display:block;
+	width: 940px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+hr {
+  background: #ddd; 
+  clear: both; 
+  float: none; 
+  width: 100%; 
+  height: 1px;
+  border: none; 
+}
 
 .blog_text {
 	background:#f1f5f6;
 	width:300px;
-	height:60px;	
+	height:60px;
+	margin-top: -30px;
+	
 }
 
 	.blog_post {
@@ -234,13 +259,24 @@ nav ul li {
 	.blog_post:nth-child(3) {
 		padding-right: 0px;
 	}
+	
+	.blog_post:nth-child(6) {
+		padding-right: 0px;
+	}
 
 
-	.blog_post h3 {
+	.blog_text h3 {
 		text-transform: uppercase;
 		font-size: 10px;
 		font-weight: bold;
-		margin-top: -10px;
+		line-height: 30px;
+	}
+	
+	.blog_text p {
+		font-family: Times;
+		text-transform:uppercase;
+		font-size:14px;
+		letter-spacing:.1em;
 	}
 footer { 
 	background-color:#f5f5f5;
