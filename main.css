@@ -84,14 +84,15 @@ body {
 header {
 	display: block;
 	background-color: #424348;
-}
+
+	}
 
 	header ul {
-		margin: 0 auto;
 		width: 940px;
 		display: block;
 		text-align: right;
 		padding: 15px;
+		margin: 0 auto;
 	}
 
 		header ul li {
@@ -241,14 +242,21 @@ nav a:hover{
 			text-transform: uppercase;
 			font-size: 11px;
 			letter-spacing: .1em;
-			color: #7d8085;
 			font-weight:bold;
 		}
 	
 		.img_container:nth-child(4) {
 			padding-right: 0px;
+		}
+		
+		.img_container a {
+			text-decoration:none;
+			color:#4e5258;
 		}	
 		
+		.img_container a:hover {
+			color: #0f8783;
+		}
 .divider {
 	position: relative;
 	display:block;
@@ -271,6 +279,15 @@ hr {
 	height:60px;
 	margin-top: 0px;
 	
+}
+
+.blog_text a {
+	text-decoration:none;
+	color: #4e5258;
+}
+
+.blog_text a:hover {
+	color: #0f8783;
 }
 
 	.blog_post {
@@ -296,8 +313,10 @@ hr {
 		text-transform: uppercase;
 		font-size: 11px;
 		font-weight: bold;
-		line-height: 30px;
+		line-height: 15px;
 		letter-spacing:.15em;
+		margin-top: -4px;
+		padding-top:15px;
 	}
 	
 	.blog_text p {
