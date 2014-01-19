@@ -67,7 +67,7 @@ table {
 body {
 	height:100%;
 	font-family: 'Proxima Nova';
-	color: #404348;
+	color: #4e5258;
 	
 }
 #container {
@@ -140,12 +140,12 @@ nav ul li {
 }
 
 nav a {
-	color:#404348;
+	color:#7d8085;
 	text-decoration:none;
 }
 
 nav a:hover{
-	color:#9fbe00;
+	color:#ff8c3f;
 }
 #feature_container {
 	width: 940px;
@@ -194,15 +194,14 @@ nav a:hover{
 
 #button {
 	z-index:100;
-	margin: 100px auto;
-}
+	}
 
 #button a {
 	z-index:100;
 	position: absolute;
 	width: 200px;
 	height:55px;
-	background: #9fbe00;
+	background: #ff8c3f;
 	color: #ffffff;
 	text-decoration:none;
 	font-family: 'Proxima Nova';
@@ -213,13 +212,12 @@ nav a:hover{
 	margin: 20px;
 	text-transform: uppercase;
 	line-height:55px;
-	margin: 0 auto;
+	margin: 300px 370px;
 	
 }
 
 #button a:hover{
-	background: #89a400;
-	color: #ffffff;
+	background: #e57114;
 	text-decoration:none;
 	
 }
@@ -241,9 +239,10 @@ nav a:hover{
 		.img_container p {
 			margin: 20px;
 			text-transform: uppercase;
-			font-size: 12px;
-			font-weight: bold;
+			font-size: 11px;
 			letter-spacing: .1em;
+			color: #7d8085;
+			font-weight:bold;
 		}
 	
 		.img_container:nth-child(4) {
@@ -295,9 +294,10 @@ hr {
 
 	.blog_text h3 {
 		text-transform: uppercase;
-		font-size: 10px;
+		font-size: 11px;
 		font-weight: bold;
 		line-height: 30px;
+		letter-spacing:.15em;
 	}
 	
 	.blog_text p {
