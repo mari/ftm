@@ -96,7 +96,7 @@ header {
 	}
 
 		header ul li {
-			font-family: 'Proxima Nova';
+			font-family: 'Proxima Nova' Helvetica;
 			font-weight: 'Regular';
 			letter-spacing: .1em;
 			font-size: 14px;
@@ -111,6 +111,14 @@ header a {
 header a:hover {
 	color: #ffffff;
 }
+
+input { 
+	display: block;
+	width:150px;
+	height:30px;
+	border: 1px solid #4d5056;
+	background: #4d5056;
+	display: none}
 	
 .logo img {
 	display: block;
@@ -185,7 +193,6 @@ nav a:hover{
 
 #headline p {
 	font-family: 'Proxima Nova';
-	font-weight: bold;
 	font-size: 15px;
 	color: #ffffff;
 	text-align: center;
